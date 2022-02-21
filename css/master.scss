@@ -1,0 +1,582 @@
+/*sart nav*/
+$maincolor:#F7C221;
+@mixin opcite($r){
+  opacity: $r;
+}
+body{
+  overflow-x: hidden;
+}
+.bg-dark1{
+  background-color: #343a40;
+  transition: 1s;
+}
+.navbar-nav{
+
+  li{
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+  li:hover{
+    border:1px $maincolor dotted;
+  }
+}
+
+.navtext{
+ .mo1 {
+    color:$maincolor;
+    font-size:25px;
+    font-weight: bold;
+}
+ .mo2{
+font-weight: 400;
+color: white;
+letter-spacing: 3px;
+font-size: 10px;
+}
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    /* color: red; */
+    border: 1px #F7C221 dotted;}
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    /* end nav */
+    .carousel-inner h5{
+        position: absolute;
+        margin-bottom: 26%;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #F7C221;
+        font-size: 30px;
+        border-bottom: #F7C221 1px solid;
+        border-top: #F7C221 1px solid;
+       bottom: 50%;
+       left: 30%;
+       padding: 10px;
+
+
+   }
+   .card {
+    margin-top: 60px;
+    border: none;
+}
+.card-body {
+    position: absolute;
+    background-color:rgba(217, 151, 35, 0.85);
+  bottom: 20px;
+   border-radius:40px;
+padding-left: 20%;
+}
+
+.card-body:hover{background-color:rgba(0, 0, 0, 0.4)}
+.card-body .card-title{
+    color: white;
+    font-size: 15px;
+    font-family: inherit;
+
+}
+.card-body .card-text{
+font-size: 15px;
+color: white;
+
+}
+.card-body:hover{transform:scale(1.3 ,1.3);}
+.card-body i{
+    position: absolute;
+    top: 12%;
+    left:2%;
+    font-size: 30px;
+    color: white;
+}
+.contan2 .pp hr:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.img1{
+    margin-top: 30%;
+    margin-left: 8%;}
+.contan4{margin-top: 20%;}
+.btn-link {color: black;}
+.btn-link:hover {
+    /* color: #0056b3; */
+    /* text-decoration: underline; */
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+    color:black;
+   border-color: transparent;
+}
+ span.mo{
+color: white;
+background-color: black;
+padding: 10px;
+opacity: 0.5;
+ }
+.card-header { width:fit-content;
+padding: 10px;
+}
+.mb-0{
+    margin-right: 50px;
+}
+.contanh {
+    margin: 0 auto;
+    padding: 70px;
+}
+.contan2 {
+    margin: 0 auto;
+    padding: 50px;
+}
+.co .nn{
+    background-color:rgba(217, 151, 35, 0.85);
+    color: white;
+    line-height: 4;
+    box-shadow:gray 5px 5px 5px ;
+    border: 1px white solid;
+    border-radius: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+.co .nn:hover{
+    transform: skew(5deg) scale(1.1);}
+.vv .uu{
+    background-color: #F7C221;
+    box-shadow: 5px 5px  5px black;
+    margin-top: 200px;
+    padding: 30px;
+    height: fit-content;
+    opacity: 0.75;
+    cursor: pointer;
+}.vv .uu p:hover{
+color: white;
+}
+.vv .ff{
+    margin-top: 40%;
+
+}
+.vv .ff .progress{
+    margin-top: 30px;
+
+    background-color:#F7C221 ;
+    @include opcite(1);
+}
+.vv h3{
+    margin-top: 10px;}
+
+.contany {
+    background-image: url(../imge/images.jpg);
+    background-size: cover;
+  width: 100%;
+    height: 300px;
+    background-size: cover;
+    margin-top: 50px;
+    background-attachment: fixed;
+
+}
+.contany .see{
+    background-color:rgba(150, 119, 25, 0.68);
+    width: 100%;
+    height: 300Px;
+    line-height: 5;
+    color: white;
+   padding-top: 80px;
+}
+.contany .see i{
+    font-size: 50px;}
+.cc1{
+    padding: 50px;
+}
+.cc1 .j p{
+    opacity:0.5;
+}
+.cc1 .j{
+    margin-top: 40px;
+    line-height: 2;
+    padding: 10px;
+}
+.carousel-control-next {
+    margin: 0 auto;
+    margin-top: 50px;
+
+
+}
+.carousel-control-prev {
+    margin: 0 auto;
+    margin-top: 50px;    /* color: black; */
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {background-color: gray;}
+.cc1 i{
+    font-size: 25px;
+    color:#F7C221 ;
+    float: left;
+}
+.zz{
+
+   width: 100%;
+    height:300px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+.zz .ii{
+
+    background-color:rgba(150, 119, 25, 0.68);
+    width: 100%;
+    height: 300Px;
+}
+.zz .ii .pp{
+
+  border: 12px wheat solid;
+  border-left-color: #F7C221;
+  border-top-color: #F7C221;
+border-radius: 50%;
+padding: 75px;
+opacity: 10;
+margin: 17px;
+color: wheat;
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+}
+.zz .ii h3{
+    color: wheat;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.m1 .a1 .v1{
+    font-size: 50px;
+    font-weight: 900;
+    opacity: 0.70;
+}
+.m1 .a1 .v2{
+    color: gray;
+}
+.m1 .a1 h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.m1 .a1{
+    margin-top: 30px;
+
+}
+.m1 ul{
+    list-style: none;
+
+}
+.m1 ul li{
+    border: 1px gray dotted;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    opacity: 0.55;
+    cursor: pointer;
+}
+
+.m1  p:hover{
+    color: #F7C221;
+    cursor: pointer;
+}
+.m1 h3:hover{
+    color: #F7C221;
+    cursor: pointer;
+}
+.m1 ul li:hover{
+    background-color: gray;}
+.m1 button{
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;
+float:none;
+background-color: white;
+margin-left: 19%;
+border: 1px gold dotted;
+}
+.m1 button:hover{
+    background-color:#F7C221 ;
+}
+.c1{
+    margin-top: 30%;
+
+}
+hr {
+
+    width: 50%;
+}
+.c1 ul{
+
+    color: #F7C221;
+    list-style: none;
+
+}
+.c1 ul li i{
+    float: right;
+    margin-top: 10px;
+    letter-spacing: 35px;
+
+}
+.c1 h3 {
+    margin-top: 60px;
+}
+.fatcure{
+    padding: 100px 0;
+}
+.fatcure h2{
+font-size: 20px;
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 30px;
+
+}
+.fatcure p{
+font-size: 20px;
+margin-bottom: 30px;
+
+}
+.fatcure .gh li{
+    border: 1px #F7C221 dotted;
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.active1{
+background-color:#F7C221 ;
+}
+.fatcure ul li:hover{
+    background-color:#F7C221 ;
+}
+.as{
+    position: relative;
+    background-image: url(../imge/5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+ .as .n1{
+    background-color:rgba(150, 119, 25, 0.68);
+     width: 100%;
+    height: 500px;
+color: rgba(231, 220, 220, 0.88);
+font-size: 20px;
+font-weight: bold;
+margin-top: 100px;
+
+ }
+ .n2{
+background-image: url(../imge/banner.png);
+width: 100%;
+height: 300px;
+position: absolute;
+bottom: 2px;
+ }
+ .er1{
+     margin-top: 100px;
+     font-weight: bold;
+ }
+ .er1 a{
+     margin: 30px;
+     text-decoration: none;
+    color: gray;
+ }
+ .er1 a:hover{
+    border: 1px #F7C221 dotted ;
+
+ }
+ .er1 .b2 input{
+     margin-top:20px ;
+     padding: 10px;
+ }
+ .form-control {
+    margin-top: 20px;
+
+}
+.er1 .aa1{
+    margin-top: 20px;
+}
+.q1 i{
+    color:#F7C221 ;
+    font-size: 40px;
+    margin-top: 20%;
+}
+.tt1{
+background-color: black;
+width: 100%;
+height: 300px;
+margin-top: 40px;
+}
+.tt1 ul li{
+float: left;
+padding: 10px;
+margin-top: 20%;
+color:white ;
+font-size: 20px;
+opacity: 0.55;
+}
+.tt1 h1 {
+    color:#F7C221;
+    margin-top: 20%;
+    font-size: 20px;
+}
+.tt1 h5{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+ .b1 img {   width: 100%;
+}
+.b1 .col-lg-4{
+    padding: 0;}
+    .op{
+        margin: 0 25px;
+        }
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            background-color: black;
+        }
+@media(max-width:767px){
+    .co .nn {
+        background-color: rgba(217, 151, 35, 0.85);
+        color: white;
+        line-height: 1;
+        box-shadow: grey 5px 5px 5px;
+        border: 1px white solid;
+        border-radius: 30px;
+        transition: 1s;
+        cursor: pointer;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .contany .see {
+        background-color: rgba(150, 119, 25, 0.68);
+        width: 100%;
+        height: fit-content;
+        line-height: 5;
+        color: white;
+        padding-top: 80px;
+    }
+    .contany {
+        background-image: url(../imge/images.jpg);
+        background-size: cover;
+        width: 100%;
+        height: fit-content;
+        background-size: cover;
+        margin-top: 50px;
+        background-attachment: fixed;
+    }
+    .c1 ul li i {
+        float: left;
+        margin-top: 10px;
+        letter-spacing: 35px;
+        margin-right: 50p;
+        padding: 12px;
+    }
+
+    .carousel-inner h5 {
+        position: absolute;
+        margin-bottom: 26%;
+        font-family: inherit;
+        line-height: 1;
+        color: #F7C221;
+        font-size: 8px;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px;
+        /* padding: 10px; */
+        padding-top: 10px;
+    }
+    .c1 ul li i {
+        float: left;
+        margin-top: 10px;
+        letter-spacing: 35px;
+        margin-right: 50p;
+        padding: 9px;
+    }
+
+}
+@media (min-width:768px) and (max-width:991px){
+    .co .nn {
+        background-color: rgba(217, 151, 35, 0.85);
+        color: white;
+        line-height: 1;
+        box-shadow: grey 5px 5px 5px;
+        border: 1px white solid;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+        .zz .ii .pp {
+            border: 12px wheat solid;
+            border-left-color: #F7C221;
+            border-top-color: #F7C221;
+            border-radius: 50%;
+            /* padding: 75px; */
+            opacity: 10;
+            margin: 17px;
+            color: wheat;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            margin-top: 50px;
+            padding: 13px;
+        }
+        .card-body {
+            position: absolute;
+            background-color: rgba(217, 151, 35, 0.85);
+            bottom: 20px;
+            border-radius: 40px;
+            padding-left: 20%;
+            padding: 30x;
+            margin-left: 60px;
+            left: 50;
+        }
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+.co .nn {
+    background-color: rgba(217, 151, 35, 0.85);
+    color: white;
+    line-height:1;
+    box-shadow: grey 5px 5px 5px;
+    border: 1px white solid;
+    border-radius: 50px;
+    transition: 1s;
+    cursor: pointer;
+    height: 300px;
+    padding: 30px;
+}
+.zz .ii .pp {
+    border: 12px wheat solid;
+    border-left-color: #F7C221;
+    border-top-color: #F7C221;
+    border-radius: 50%;
+    padding: 50px;
+    opacity: 10;
+    margin: 17px;
+    color: wheat;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+}
